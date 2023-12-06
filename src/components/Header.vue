@@ -32,8 +32,8 @@ import { useUserStore } from '@/store/user'
 export default {
 
 setup() {
-const userStore = useUserStore()
-return { userStore }
+	const userStore = useUserStore()
+	return { userStore }
 },
 
 methods: {

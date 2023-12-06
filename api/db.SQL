@@ -57,7 +57,7 @@ CREATE TABLE `pets` (
  `cat_id` int(11) NOT NULL,
  `name` varchar(255) default NULL,
  `description` varchar(255) default NULL,
- `status` int(5) default NULL,
+ `status` int(5) default 0,
  `image` varchar(255) default NULL,
  PRIMARY KEY (`id`),
  CONSTRAINT FOREIGN KEY (`cat_id`) REFERENCES `petcategories` (`id`)

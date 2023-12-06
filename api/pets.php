@@ -7,7 +7,7 @@ $db = dbconnect($hostname,$db_name,$db_user,$db_passwd);
 if($db) {
    if($_SERVER['REQUEST_METHOD'] == 'GET') {
 	// criar query numa string
-	  $query  = "SELECT  c.id as cat_id, c.name as cat_name, p.id, p.name, p.description, p.status, p.image FROM pets as p inner join petcategories as c on (p.cat_id = c.id)";
+	  $query  = "SELECT  c.id as cat_id, c.name as cat_name, p.id, p.name, p.description, p.status, p.image FROM pets as p inner join petcategories as c on (p.cat_id = c.id) WHERE p.status='0'";
  
 	// executar a query
 	if(!($result = @ mysqli_query($db, $query)))
