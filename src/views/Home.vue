@@ -87,28 +87,17 @@
 </template>
 
 <script>
+    export default {
+		
+        components: {
 
-import { usePetsStore } from '@/store/pets'
-import { usePetCategoriesStore } from '@/store/petcategories'
+        },
+    
+        mounted() {
 
-export default {
+        },
 
-	setup() {
-		const petsStore = usePetsStore()
-		const petcategoriesStore = usePetCategoriesStore()		
-		return { petsStore, petcategoriesStore }
-  	},
-
-    components: {
-    },
-   
-    mounted() {
-        this.petsStore.getPetsDB()
-        this.petcategoriesStore.getCategoriesDB()
-    },
-
-}
-
+    }
 </script>
 
 <style scoped>

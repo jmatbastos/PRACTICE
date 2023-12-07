@@ -1,12 +1,12 @@
 <template>
     <div id="wrapper">  
                 
-                <!-- start APAGAR NO INICIO DO EXAME  -->
+                <!-- AVISO: ALTERAR O PATH '/' PARA A VISTA 'Home' NO EXAME  -->
                 <div id="exame">            
                     <img alt="Vue logo" src="@/assets/logo.png">
                     <h1>Welcome to Your PRACTICE Vue App</h1>
                 </div>
-                <!-- End APAGAR NO INICIO DO EXAME -->  		
+                <!-- E COMENTAR/APAGAR A VISTA 'Welcome' NO EXAME   -->		
 
     </div>
 

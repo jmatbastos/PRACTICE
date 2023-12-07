@@ -38,8 +38,8 @@ setup() {
 
 methods: {
 logout() {
+  localStorage.setItem('message', `Bye ${this.userStore.user.name}, see you back soon!`);
   this.userStore.logoutUser()
-  localStorage.setItem('message', 'Bye, see you back soon!');
   this.$router.push('/message')
 }
 },

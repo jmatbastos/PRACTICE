@@ -24,7 +24,7 @@ export default {
 	},   
     mounted() {
         this.message = localStorage.getItem('message')
-        var timeleft = 3;
+        var timeleft = 2;
         var downloadTimer = setInterval(() => {
         if(timeleft <= 0){
             clearInterval(downloadTimer);

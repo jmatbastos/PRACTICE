@@ -25,13 +25,15 @@ import Header from '@/components/Header.vue'
 import { useAdoptionsStore } from '@/store/adoptions'
 import { useUserStore } from '@/store/user'
 import { usePetsStore } from '@/store/pets'
+import { usePetCategoriesStore } from '@/store/petcategories'
 
 export default {
     setup() {
 		const adoptionsStore = useAdoptionsStore()
 		const userStore = useUserStore()
-        const petsStore = usePetsStore()		
-		return { adoptionsStore, userStore,  petsStore}
+        const petsStore = usePetsStore()	
+        const petCategoriesStore = usePetCategoriesStore()	        	
+		return { adoptionsStore, userStore,  petsStore, petCategoriesStore }
   	}, 
     components: {
         Footer,

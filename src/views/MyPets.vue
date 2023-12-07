@@ -1,12 +1,9 @@
 <template>
-<div>
+	<div>
 
 
-  
-<Header />
-
-
-
+	
+		<Header />
 
 
 
@@ -17,9 +14,12 @@
 
 
 
-<Footer />
 
-</div>
+
+
+		<Footer />
+
+	</div>
 </template>
 
 <script>
@@ -27,11 +27,13 @@ import Footer from '@/components/Footer.vue'
 import Header from '@/components/Header.vue'
 
 import { useAdoptionsStore } from '@/store/adoptions'
+import { useUserStore } from '@/store/user'
 
 export default {
 	setup() {
 		const adoptionsStore = useAdoptionsStore()	
-		return { adoptionsStore }
+		const userStore = useUserStore()			
+		return { adoptionsStore,  userStore } 
   	}, 
     components: {
 		Footer,

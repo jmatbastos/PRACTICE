@@ -1,20 +1,18 @@
 <template>
-<div>
-
-
-  
-<Header />
-
-
-
+    <div>
     
-	
+        <Header />
 
 
 
-<Footer />
+            
+            
 
-</div>
+
+
+        <Footer />
+
+    </div>
 </template>
 <script>
 import Footer from '@/components/Footer.vue'

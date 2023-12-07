@@ -1,26 +1,24 @@
 <template>
-<div>
-
-
-  
-<Header />
-
-
-
-    
-             
+    <div>
+   
+        <Header />
 
 
 
-				
+            
+                    
+
+
+
+                        
 
 
 
 
 
-<Footer />
+        <Footer />
 
-</div>
+    </div>
 </template>
 <script>
 import Footer from '@/components/Footer.vue'
