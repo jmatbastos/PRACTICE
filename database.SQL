@@ -106,6 +106,7 @@ CREATE TABLE IF NOT EXISTS `applications` (
  `cv` varchar(255) default NULL,
  `applied_at` datetime NOT NULL,
  PRIMARY KEY (`id`),
+ UNIQUE KEY  (`job_id`, `user_id`),
  CONSTRAINT FOREIGN KEY (`job_id`) REFERENCES `jobs` (`id`),
  CONSTRAINT FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
