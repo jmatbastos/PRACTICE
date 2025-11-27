@@ -69,7 +69,7 @@ CREATE TABLE IF NOT EXISTS `jobs` (
 -- Dumping data for table `jobs`
 --
 
-INSERT INTO `jobs` VALUES (1,3,1,'Dropbox Product Designer','Software startup','2019-12-18 23:25:53','Developing cutting-edge digital solutions','Barcelona',50,'1.jpg'),(2,2,2,'Senior Programmer in Laravel','Spotify ','2019-12-18 23:25:53','You will work alongside some of the best developers','Faro',70,'2.jpg'),(3,1,3,'FullStack Developer in Shopify','Facebook','2019-12-18 23:30:51','Do you look beyond the code and back-end solution?','Brussels',80,'3.jpg'),(4,4,4,'Dropbox Product Designer','Yahoo','2019-12-18 23:30:51','Back-end developer with expertise in Java','Dublin',60,'4.jpg'),(5,5,5,'Front End Developer in Vue.js','Ebay','2019-12-18 23:33:15','Front-end developer who masters JavaScript, Angular, React, Vue','London',50,'5.jpg');
+INSERT INTO `jobs` VALUES (1,3,1,'Dropbox Product Designer','Software startup','2019-12-18 23:25:53','Developing cutting-edge digital solutions','Barcelona',50,'1.jpg'),(2,2,2,'Senior Programmer in Flask','Spotify ','2019-12-18 23:25:53','You will work alongside some of the best developers','Faro',70,'2.jpg'),(3,1,3,'FullStack Developer in Flask and React','Facebook','2019-12-18 23:30:51','Do you look beyond the code and back-end solution?','Brussels',80,'3.jpg'),(4,4,4,'Dropbox Product Designer','Yahoo','2019-12-18 23:30:51','Back-end developer with expertise in Flask','Dublin',60,'4.jpg'),(5,5,5,'Front End Developer in Vue.js','Ebay','2019-12-18 23:33:15','Front-end developer who masters JavaScript, Angular, React, Vue','London',50,'5.jpg');
 
 --
 -- Table structure for table `users`
