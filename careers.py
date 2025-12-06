@@ -5,7 +5,7 @@ from flask import (
 
 from werkzeug.utils import secure_filename
 
-from PRACTICE.db_careers import (
+from .db_careers import (
     get_jobs, get_job_categories, get_myapplications, make_application
 )
 

@@ -10,11 +10,11 @@ app.config['MAIL_SERVER'] = 'localhost'
 app.config['MAIL_PORT'] = 25
 mail = Mail(app)
 
-from PRACTICE.db_auth import (
+from .db_auth import (
     register_user,login_user,activate_user
 )
 
-from PRACTICE.form import RegisterUserForm
+from .form import RegisterUserForm
 
 bp = Blueprint('auth', __name__, url_prefix='/auth')
 
